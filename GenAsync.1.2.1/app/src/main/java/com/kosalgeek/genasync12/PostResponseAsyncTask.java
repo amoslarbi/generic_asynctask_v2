@@ -39,7 +39,7 @@ public class PostResponseAsyncTask extends AsyncTask<String, Void, String> {
     private AsyncResponse asyncResponse;
     private Context context;
     private HashMap<String, String> postData = new HashMap<String, String>();
-    private String loadingMessage = "Loading...";
+    private String loadingMessage = "";
     private boolean showLoadingMessage = true;
 
 
